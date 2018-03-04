@@ -3,5 +3,69 @@ body {
 }
 
 h1, p {
-  color:dodgerblue;
+  color:navy;
+}
+
+.menu {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-container {
+  width: 100vw;
+  display:flex;
+  align-items: center;
+  height: 8vh;
+}
+
+.wrapper {
+  width: 100%;
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.parent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  background-color: slateblue;
+  color:white;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: cornsilk;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: cornsilk;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: cornsilk;
+  }
 }
