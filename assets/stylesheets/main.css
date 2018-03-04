@@ -1,4 +1,7 @@
 body {
   background: cornsilk;
-  color: dodgerblue;
+}
+
+h1, p {
+  color:dodgerblue;
 }
